@@ -1,0 +1,32 @@
+Fix:
+G(a/b/c/d)
+A(a/b)
+U(a/b)
+
+Don't Fix:
+J(a/b)
+R(a/b)
+N(a/b)
+H
+Z
+T
+Y
+V
+F
+E
+
+Order:
+G(a/b/c/d) - solved
+N(a/b) - U2 Hperm
+J(a/b) - U Fperm
+R(a/b) - U' J(a)perm U2
+A(a/b) - same
+U(a/b) - same
+H
+Z
+E - J(a)perm U2
+V
+*no axis fix
+F - Uperm(toRight) U'
+Y
+T - Rperm(left) y'

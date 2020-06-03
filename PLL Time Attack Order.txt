@@ -1,0 +1,40 @@
+Taken from a post online somewhere...
+--===================================--
+
+Mine goes back to the solved state  AND it's nice to perform (for me).
+I was customizing my PLL order to get a smooth transition from every PLL to the next,
+and I got a solved cube at the end by chance, so that order's been stuck ever since.
+
+G: R U R' y' R2 Uw' R U' R' U R' Uw R2 (smooth transition into next G)
+G: R'2 Uw' R U' R U R' Uw R2 y R U' R' (smooth transition into next G)
+G: R' U' R y R'2 Uw R' U R U' R Uw' R2 (smooth transition into next G)
+G: R'2 Uw R' U R' U' R Uw' R2 y' R' U R (smooth transition into N)
+N: R' U R U' R' F' U' F R U R' F R' F' R U' R (smooth transition into next N)
+N: R U' R' U Lw U F U' R' F' R U' R U Lw' U Lw' (smooth transition into E)
+E: U R' U' L U R U' Rw'2 U' R U L U' R' U (smooth transition into A)
+A: R U' R D2 R' U R D2 R'2 (smooth transition into next A)
+A: R2 D'2 R' U' R D'2 R' U R'
+H: M'2 U M'2 U2 M'2 U M'2 (smooth transition into Z)
+Z: U2 M'2 U M'2 U M' U2 M'2 U2 M'
+R: U R U'2 R' U2 Lw U' R' F' R F R U (R' Lw') (smooth transition into F)
+F: U' R' U R U' (R' Lw') Dw' R' U R y' R U R' U' (R Lw) (smooth transition into R)
+R: R' U2 R U'2 R' F R U R' U' R' F' R2 U' (smooth transition into V)
+V: R' U R' U' y R' F' R2 U' R' U R' F R F (smooth transition into U)
+U: R U' R U R U R U' R' U' R2 (smooth transition into next U)
+U: R'2 U R U R' U' R' U' R' U R' (smooth transition into Y)
+Y: F R U' R' U' R U R' F' R U R' U' R' F' R F' (smooth transition into T)
+T: R U R' U' R' F R2 U' R' U' R U R' F' (smooth transition into J)
+J: R U2 R' U' R U2 L' U R' U' Rw (smooth transition into next J) (the RFU J perm flows nicely from T, but not to the next J)
+J: (you already did an x rotation) U2 Rw' U' Rw U2 Lw' U R' U' R2
+Solved!
+
+If you use non-slicing H and Z perms, then the whole sequence just flows like magic. But, I like slicing 
+
+I can hit 9.xx tps from the nice R perm onwards. It's part of my "philosophy" that PLL time attacks should
+start with the bad algs and end with the nice ones, this way I can just stop the timer and reset if I don't
+sub-8 after the G's, or if I don't sub-13 after the N's, something like that. And smooth algs at the end are
+always better because that's when you tend to get nervous and lock up.
+
+It's not the best, but it can't be a bad sequence either, because I can sub-40 with it
+
+I also did a bit of my own study/research and found this order to be good: Gs E Ns Rs V F Js As Us H Z Y T

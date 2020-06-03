@@ -1,0 +1,19 @@
+xxxxx
+xxxxO
+xxxxx		I to O and O to I
+Ixxxx					dRF'UR'Fd'
+xxxxx
+
+ xxxxx
+ xxxxx
+XIxxxOX		Fixes XI and OX, Swaps them to fix permutation
+ xxxxx					eRF'UR'Fe'
+ xxxxx
+
+xxxxx
+Ixxxx
+xxxxx		I to O and I dont know what else
+Oxxxx					LFU'LF
+xxxxx
+
+L'FU'LF

@@ -1,0 +1,26 @@
+Algorithms I use as of 05May2014
+G1: [f R f'] R2 u' R [U' R' U R' u] R2
+G2: R2 u' [R U' R] [U R' u] R2 [f R' f']
+G3: F' U' F R2 u [R' U R U' R] u' R2
+G4: R2 u [R' U R' U' R] u' R2 y L' U L
+Aa: x [R' U R'] D2 R U' R' D2 R2 (primary)
+Aa: R' F R' B2 R F' R' B2 R2 (secondary)
+Ab: R2 B2 R F R' B2 R F' R
+Ua: F2 U L R' F2 L' R [U y'] R2
+Ub: F2 U' L R' F2 L' R U' y' R2
+E: x' [R U' R'] D [R U R'] D' [R U R'] D [R U' R'] D'
+V: [R' U R'] [U' y] R' F' R2 U' [R' U R' F R] F
+F: R' U2 R' [U' y] R' F' R2 U' [R' U R' F R] U' F (Almost exactly the same as V)
+H: M2' U M2' U2 M2' U M2'
+Z: (M2' U)x2 M' U2 M2' U2 M' U2
+Ja: [R U R' F'] [R U R' U'] [R' F R2 U' R' U'] (primary)
+Ja: [R' U L'] U2 [R U' R'] U2 R L U' (secondary)
+Jb: [L U' R] U2 [L' U L] U2 L' R' U (mirror of Ja secondary)
+Na: [R U R' U] [Jb-Perm] [U' R U' R'] (primary. Can merge end of Jb into U' and turn it into a U2)
+Na: [r' D r U2]x5 (secondary. Easy to learn but slow)
+Nb: z U' R2 U [Jb-Perm] U' R2 U (primary. Can merge end of Jb into U' and turn it into a U2)
+Nb: [r D' r' U2]x5 (secondary. Easy to learn but slow)
+Ra: R' U2 R U2 [R' F] [R U R' U'] R' F' R2 U'
+Rb: L U2 L' U2 L F' [L' U' L U] L F L2 U (mirror of Ra. I do the F with my left thumb)
+T: [R U R' U'] [R' F R2 U' R' U'] [R U R' F']
+Y: F [R U' R' U'] [R U R' F'] [R U R' U'] [R' F R F']

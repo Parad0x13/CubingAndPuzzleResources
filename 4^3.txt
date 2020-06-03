@@ -1,0 +1,27 @@
+last two that supposed are supposed to line up, make them side by side, not diagonal
+
+algorithm:
+
+L' F U' L F
+
+Now that they are diagonal... fix that make them side by side
+
+algorithm:
+
+d R F' U R' F d'
+
+and now corners swap for the last layer
+
+algorithm:
+
+r2 U2 r2 U2 u2 r2 u2
+
+and for two edges
+
+r2 U2 r2 U2 u2 r2 u2
+
+and for one that needs to be swapped upside down
+
+r2 B2 U2 l U2 r' U2 r U2 F2 r F2 l' B2 r2
+
+that last algorithm works perfectly on a 5^3 too
